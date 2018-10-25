@@ -26,6 +26,10 @@ Run the server:
 
 ``` $ npx nodemon ```
 
+Open your browser and go to `localhost:3000` and see your superpowers at work.
+
+Simple, right?
+
 # Things to do
 - [x] Upload initial version
 - [ ] Migrate nodemon to Grunt
