@@ -25,3 +25,4 @@ Run the server:
 # Things to do
 - [x] Upload initial version
 - [ ] Migrate nodemon to Grunt
+- [ ] Turn into a full fledged command line application
