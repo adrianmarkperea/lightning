@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                 },
             },
             livereload: {
-                files: ['public/**/*'],
+                files: ['www/**/*'],
                 options: {
                     livereload: true
                 },

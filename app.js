@@ -7,10 +7,10 @@ const port = (process.env.PORT || '3000');
 const app = express();
 
 app.use(logger('dev'));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'www')));
 
 app.get('*', (req, res) => {
-    return res.sendFile('404.html', { root: 'public' });
+    return res.sendFile('404.html', { root: 'www' });
 });
 
 app.listen(port, () => {
