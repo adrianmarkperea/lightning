@@ -3,11 +3,11 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             css: {
-                files: ['build/scss/*.scss'],
+                files: ['www/styles/scss/*.scss'],
                 tasks: ['sass'],
             },
             scripts: {
-                files: ['public/scripts/*.js'],
+                files: ['www/scripts/*.js'],
                 tasks: ['jshint'],
                 options: {
                     spawn: false,
@@ -24,16 +24,16 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: 'build/scss',
+                    cwd: 'www/styles/scss',
                     src: ['*.scss'],
-                    dest: 'public/styles',
+                    dest: 'www/styles/css',
                     ext: '.css',
                 }],
             },
         },
         jshint: {
             all: {
-                src: ['public/scripts/*.js'],
+                src: ['www/scripts/*.js'],
             },
         },
     });
