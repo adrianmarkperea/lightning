@@ -11,16 +11,24 @@ A static site bootstrap to quickly churn out ideas.
 No more need for winding setups and resolving dependencies. Going from zero to hero is as simple as follows:
 
 Clone the repo:
-` $ git clone https://github.com/adrianmarkperea/lightning name-of-your-awesome-app
+
+``` $ git clone https://github.com/adrianmarkperea/lightning name-of-your-awesome-app ```
 
 Install dependencies:
-` $ npm install
+
+``` $ npm install ```
 
 Run grunt watch:
-` $ grunt watch
+
+``` $ grunt watch ```
 
 Run the server:
-` $ npx nodemon
+
+``` $ npx nodemon ```
+
+Open your browser and go to `localhost:3000` and see your superpowers at work.
+
+Simple, right?
 
 # Things to do
 - [x] Upload initial version
